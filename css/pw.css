@@ -58,6 +58,12 @@
   width: 100%;
 }
 
+.pequena {
+  display: flex;
+  margin: auto;
+  max-width: 350px;
+}
+
   /* Style the logo */
   header img {
     width: 100px;
@@ -98,6 +104,23 @@
     text-indent: 10px;
     background-color: #f1f1f1;
     padding: 20px;
+  }
+
+  aside {
+    background-color: #9DE2F1;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  h3 {
+    background-color: #3784FF;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  ul {
+    flex-direction: column;
   }
   
   /* Style the footer */
