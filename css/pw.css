@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('/fontes/idroid.otf');
+  }
+
+  @import url('/fontes/idroid.otf');
+  
+  body {
+    font-family: Arial, Helvetica, serif;
+    background-color: #0b55cd;
+  }
+  
+  /* Style the header */
+  header {
+    text-align: center;
+    background-image: linear-gradient(to top, #146898, rgba(0, 0, 0, 0.776));
+    color: white;
+    padding: 10px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 20px;
+  }
+
+  h1, #subt {
+    font-family: serif;
+  }
+
+  .titulo1 {
+    font-family: Idroid, sans-serif;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: Idroid, sans-serif;
+    color: black;
+    background-image: linear-gradient(to right, #8cd7df, #3373da);
+    padding: 4px;
+
+  }
+
+  .hlink {
+    text-decoration: none;
+    color: #3373da;
+  }
+
+  .hlink:hover {
+    text-decoration: underline;
+    background-color: #8cd7df;
+    transition: 1.5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.redimensionar {
+  width: 100%;
+}
+
+  /* Style the logo */
+  header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+  /* Container for flexboxes */
+  section {
+    display: flex;
+    margin: auto;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    text-align: center;
+    background: #ccc;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-indent: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Style the content */
+  article {
+    text-indent: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 866px) {
+    section {
+      flex-direction: column;
+    }
+    nav{
+      height: 56px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
