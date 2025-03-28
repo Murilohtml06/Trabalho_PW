@@ -16,14 +16,33 @@
             em um único lugar.</p>
     </header>
     <section>
-        <nav>
+        <nav class="nav-bar"></nav>
+        <div class="nav-list">
             <ul>
-                <li><a class="navlink" href="primeiras-versoes.html">Primeiras versões</a></li>
-                <li><a class="navlink" href="#">Versões recentes</a></li>
-                <li><a class="navlink" href="#">dsafsdreggq</a></li>
-                <li><a class="navlink" href="#">regwRGARGer</a></li>
+                <li class="nav-item"><a class="navlink" href="primeiras-versoes.html">Primeiras versões</a></li>
+                <li class="nav-item"><a class="navlink" href="#">Versões recentes</a></li>
+                <li class="nav-item"><a class="navlink" href="#">História do Android Market</a></li>
+                <li class="nav-item"><a class="navlink" href="#">regwRGARGer</a></li>
             </ul>
-        </nav>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <label class="menu" for="menu">
+                <input onclick="menuShow()" type="checkbox" id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a class="navlink" href="primeiras-versoes.html">Primeiras versões</a></li>
+                <li class="nav-item"><a class="navlink" href="#">Versões recentes</a></li>
+                <li class="nav-item"><a class="navlink" href="#">História do Android Market</a></li>
+                <li class="nav-item"><a class="navlink" href="#">regwRGARGer</a></li>
+            </ul>
+        </div>
         <article>
             <h1 class="titulo1">História do mascote do android</h1>
 
@@ -85,13 +104,14 @@
                 <h3>Quer aprender mais?</h3>
 
                 <p>
-                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+                    Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um
+                    doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
                 </p>
 
                 <ul>
                     <li>1.5 - Cupcake</li>
                     <li>1.6 - Donut</li>
-                    <li>3.0 - Eclair</li>
+                    <li>2.0 - Eclair</li>
                     <li>2.2 - Froyo</li>
                     <li>2.3 - Gingerbread</li>
                     <li>3.0 - Honeycomb</li>
@@ -105,20 +125,25 @@
                 </ul>
 
                 <p>
-                    Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao <strong>Android 10</strong>.
+                    Infelizmente, o <strong>Android Q</strong> não existiu, pois o Google resolveu pôr fim a essa
+                    divertida prática e começou a usar numerações, o que deu origem ao <strong>Android 10</strong>.
                 </p>
 
                 <p>
-                    Acesse aqui o site <a href="https://developer.android.com/about/versions?hl=pt-br" class="hlink">Developer Android</a> para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
+                    Acesse aqui o site <a href="https://developer.android.com/about/versions?hl=pt-br"
+                        class="hlink">Developer Android</a> para conhecer a sequência das versões "adocicadas" e o que
+                    cada uma trouxe para o sistema Android.
                 </p>
             </aside>
             <h3>Fonte:</h3>
-                <p><a href="https://www.tecmundo.com.br/android/1043-historia-mascote-android.htm" target="_blank" rel="external">Tecmundo</a></p>
+            <p><a href="https://www.tecmundo.com.br/android/1043-historia-mascote-android.htm" target="_blank"
+                    rel="external">Tecmundo</a></p>
         </article>
     </section>
     <footer>
         <p>© Direitos reservados</p>
     </footer>
 </body>
+<script src="js/pw.js"></script>
 
 </html>
