@@ -54,19 +54,14 @@ h2 {
   border-radius: 5px;
 }
 
-.redimensionar {
-  width: 100%;
-}
-
 .media {
   display: flex;
   margin: auto;
 }
 
-.pequena {
-  display: flex;
-  margin: auto;
-
+.icone {
+  padding-right: 12px;
+  width: 14%;
 }
 
 /* Style the logo */
@@ -135,16 +130,15 @@ nav {
 
 .mobile-menu.open {
   display: block;
-  opacity: 1;
+
 }
 
 .mobile-menu ul {
   display: flex;
   flex-direction: column;
-  text-align: center;
   list-style: none;
   margin: 0px;
-  padding: 4px;
+  padding: 20px;
 }
 
 .mobile-menu .nav-item {
@@ -221,8 +215,11 @@ li {
 
 .navlink {
   text-decoration: none;
+  background-color: white;
   color: black;
+  border-radius: 5px;
   padding: 8px;
+  width: 270px;
 }
 
 a:hover {
@@ -295,7 +292,7 @@ footer {
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 866px) {
-  .pequena {
+  .media {
     width: 100%;
   }
 }
